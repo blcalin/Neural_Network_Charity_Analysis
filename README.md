@@ -26,7 +26,7 @@ The EIN and NAME columns are neither targets nor features, and should be removed
 
 Compiling, Training, and Evaluating the Model: 
 4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-In the optimized model, layer 1 began with 120 neurons with a relu activation. For layer 2, it dropped to 80 neurons and relu activation continued. From there, the sigmoid activation was the better fit for layers 3 (40 neurons) and layer 4 (20 neurons).
+In the optimized model, layer 1 began with 80 neurons with a relu activation. For layer 2, it dropped to 30 neurons and relu activation continued. From there, the sigmoid activation was the better fit due to our dataset.
 
 ![image](https://user-images.githubusercontent.com/109991916/208312738-7be4cbfb-a0b4-469d-9355-d536e49345c0.png)
 
